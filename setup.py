@@ -2,11 +2,9 @@ from setuptools import setup
 
 VERSION = "0.8.0"
 
-
 def readme():
     with open('README.md') as f:
         return f.read()
-
 
 setup(name='scrape_linkedin',
       version=VERSION,
